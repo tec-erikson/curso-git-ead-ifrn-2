@@ -58,5 +58,7 @@ Erikson Pedro da Silva Nicacio
 
 
 
+(OBS: Por equivoco, realizou-se repetidamente os commits dos itens 3 e 4)
+
 
   
