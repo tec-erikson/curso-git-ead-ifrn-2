@@ -40,10 +40,23 @@ Erikson Pedro da Silva Nicacio
    -git add texto.txt
    -git commit -m "terceiro commit referente ao item 8 da tarefa"
 
+12 - Em seguida, foi criada a branch add-comandos por meio do seguinte comando: 
+   -git checkout -b add-comandos
+
+13 - Após isso, o presente arquivo foi adicionado à nova branch, sendo realizado um novo commit por meios dos seguintes comandos:
+   -git add comandos.txt
+   -git commit -m "quinto commit referente ao item 10 da tarefa"
+
+14 - Em seguida, foi criado um repositório remoto no github e configure-o no seu git local como origin-atividade, por meio do seguinte comando:
+   git remote add origin-atividade https://github.com/tec-erikson/curso-git-ead-ifrn-2.git
+
+15 - Por fim, "subiu-se" para o repositório remoto tanto a branch main quanto a branch add-comandos por meio dos seguintes comandos, respectivamente:
+   -git checkout main;
+   -git push -u origin-atividade main;
+   -git checkout add-comandos;
+   -git push -u origin-atividade add-comandos.
 
 
-4 - O próximo passo foi a vinculação do repositório ao nome e e-mail, através dos comandos: git config user.name "Erikson       
-  Pedro" e git config user.email "tecnologoeriksonpedro@gmail.com";
 
-5 - 
+
   
