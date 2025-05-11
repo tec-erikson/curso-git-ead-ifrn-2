@@ -1,0 +1,49 @@
+Erikson Pedro da Silva Nicacio
+
+1 - Inicialmente implementou-se o seguinte comando: 
+   pwd (comando utilizado para visualizar a pasta onde será criado o diretório); 
+
+2 - Em seguida, para criar o diretório, foi utilizado o comando: 
+   mkdir curso-git-3 (comando utilizado para criar o diretório);
+
+3 - Para acessar o diretório, foi utilizado o comando cd curso-git-3
+
+4 - Em seguida, com base no comando da tarefa, clonou-se o repositório indicado por meio do seguinte comando:
+   git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead.git
+
+5 - Para acessar o ditorio local criado após a clonagem, utilizou-se o seguinte o seguinte comando: 
+   cd curso-branchs-ifrn-ead
+
+6 - Em seguida, conforme o item 3 da tarefa, foi criado um arquivo de texto, realizando em seguida o processo de commit
+   por meio dos seguintes comandos, nessa ordem:  
+   - git add texto.txt;
+   - git commit -m "primeiro commit referente ao item 3"
+
+7 - Em seguida, foi criada a branch chamada feature-1, sendo realizada uma modificação no arquivo criado anteriormente para que seja feito um novo commit. A branch foi criada por meio do seguinte comando: 
+   git checkout -b feature-1
+    Em seguida, após a modificação, nessa nova branch, foram realizados os seguintes comandos, respectivamente:
+   - git add texto.txt;
+   - git commit -m "segundo commit referente ao item 4"
+
+8 - Após isso, retornou-se a branch main por meio do seguinte comando: 
+   git checkout main
+
+9 - Após isso, alterou-se o o conteúdo do arquivo "texto", na mesma linha da modificação anterior, sendo realizado novo commit na branch main, por meio dos seguintes comandos:
+   -git add texto.txt;
+   -git commit -m "terceiro commit referente ao item 5 da tarefa"
+
+10 - Após isso, tentou realizar o marge da branch feature-1 na main por meio do seguinte comando:
+   git merge feature-1
+   (OBS: tal operação resultou em um conflito, resolvido por meio das orientações da aula)
+
+11 - Após fazer as devidas correções manuais, foi realizado um novo commit na branch main por meio dos reguintes comandos:
+   -git add texto.txt
+   -git commit -m "terceiro commit referente ao item 8 da tarefa"
+
+
+
+4 - O próximo passo foi a vinculação do repositório ao nome e e-mail, através dos comandos: git config user.name "Erikson       
+  Pedro" e git config user.email "tecnologoeriksonpedro@gmail.com";
+
+5 - 
+  
